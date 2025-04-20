@@ -229,7 +229,7 @@ img {
     background: url("path_to-image");
 }
 .card-content {
-    margin: 16px 32px;
+    margin: 32px 16px;
 }
 .card-content h3 {
     font-family: var(--font-family);
