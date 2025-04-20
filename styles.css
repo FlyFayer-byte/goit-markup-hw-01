@@ -11,14 +11,13 @@
 }
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 /* Global styles */
 html {
     width: 1440px;
     height: 2060px;
-    text-align: center;
     background: var(--white);
 }
 
