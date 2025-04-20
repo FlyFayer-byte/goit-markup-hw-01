@@ -30,7 +30,7 @@ html {
     border-bottom: 1px solid var(--cornflower);
 }
 /* Logo */
-.logo {
+.logo-header {
     width: 115px;
     height: 24px;
     margin-left: 156px;
@@ -206,7 +206,7 @@ h1 {
     border-radius: 0 0 4px 4px;
     padding: 0 0 32px 0;;
     width: 264px;
-    height: 428px;
+    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
 }
@@ -227,7 +227,60 @@ img {
     height: 260px;
     background: url("path_to-image");
 }
-
 .card-content {
-    margin-left: 16px;
+    margin: 16px 32px;
+}
+.card-content h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+.card-content p {
+    margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--slate);
+}
+
+/* Footer */
+footer {
+    width: 1440px;
+    height: 312px;
+    padding-top: 100px;
+    padding-left: 156px;
+    background: var(--navy-blue);
+}
+footer div {
+    width: 264px;
+    height: 112px;
+}
+/* Logo footer */
+.logo-footer {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer .logo-studio {
+    color: var(--cloud);
+}
+footer p {
+    margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
 }
